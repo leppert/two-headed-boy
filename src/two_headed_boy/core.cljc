@@ -5,8 +5,6 @@
                        [cljs.reader :refer [read-string]]
                        [goog.crypt.base64 :as b64]])))
 
-#?(:cljs (nodejs/require "fs"))
-
 (defn to-json
   [m]
   #?(:clj  (che/generate-string m)
@@ -21,5 +19,5 @@
   [path]
   (-> path
       #?(:clj slurp
-         :cljs (.readFileSync "UTF-8"))
+         :cljs (#(.readFileSync (nodejs/require "fs") % "UTF-8")))
       read-string))
