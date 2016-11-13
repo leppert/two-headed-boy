@@ -1,14 +1,5 @@
 # two-headed-boy
 
-A Clojure library designed to ... well, that part is up to you.
+[![CircleCI](https://circleci.com/gh/leppert/two-headed-boy.svg?style=svg)](https://circleci.com/gh/leppert/two-headed-boy)
 
-## Usage
-
-FIXME
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Convenience functions for writing dual targeted, Clojure (JVM) and ClojureScript (Node.js) apps.
