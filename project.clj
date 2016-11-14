@@ -1,4 +1,4 @@
-(defproject two-headed-boy "0.1.0-SNAPSHOT"
+(defproject two-headed-boy "0.1.0"
   :description "Convenience functions for writing dual targeted, Clojure (JVM) and ClojureScript (Node.js) apps."
   :url "https://github.com/leppert/two-headed-boy"
   :license {:name "Eclipse Public License"
@@ -9,8 +9,7 @@
                  [org.clojure/data.codec "0.1.0"]
                  [cheshire "5.6.3"]
                  [com.cemerick/piggieback "0.2.1"]]
-  :plugins [[s3-wagon-private "1.2.0"]
-            [lein-cljsbuild "1.1.4"]
+  :plugins [[lein-cljsbuild "1.1.4"]
             [lein-npm       "0.6.2"]
             [lein-doo       "0.1.7"]]
   :npm {:dependencies [[source-map-support "0.4.6"]]}

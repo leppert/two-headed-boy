@@ -3,22 +3,14 @@ All notable changes to this project will be documented in this file. This change
 
 ## [Unreleased]
 ### Changed
-- Add a new arity to `make-widget-async` to provide a different widget shape.
+- Nothing yet.
 
-## [0.1.1] - 2016-11-13
-### Changed
-- Documentation on how to make the widgets.
-
-### Removed
-- `make-widget-sync` - we're all async, all the time.
-
-### Fixed
-- Fixed widget maker to keep working when daylight savings switches over.
-
-## 0.1.0 - 2016-11-13
+## 0.1.0 - 2016-11-14
 ### Added
-- Files from the new template.
-- Widget maker public API - `make-widget-sync`.
+- `to-json`
+- `string->base64`
+- `read-file`
+- `test-async`
 
-[Unreleased]: https://github.com/your-name/two-headed-boy/compare/0.1.1...HEAD
-[0.1.1]: https://github.com/your-name/two-headed-boy/compare/0.1.0...0.1.1
+[Unreleased]: https://github.com/leppert/two-headed-boy/compare/0.1.0...HEAD
+[0.1.0]: https://github.com/leppert/two-headed-boy/compare/f7f90c8...0.1.0
