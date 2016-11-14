@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file. This change
 ### Changed
 - Nothing yet.
 
-## 0.1.0 - 2016-11-14
+## [0.1.0] - 2016-11-14
 ### Added
 - `to-json`
 - `string->base64`
