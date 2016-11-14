@@ -12,5 +12,5 @@ All notable changes to this project will be documented in this file. This change
 - `read-file`
 - `test-async`
 
-[Unreleased]: https://github.com/leppert/two-headed-boy/compare/0.1.0...HEAD
-[0.1.0]: https://github.com/leppert/two-headed-boy/compare/f7f90c8...0.1.0
+[Unreleased]: https://github.com/leppert/two-headed-boy/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/leppert/two-headed-boy/compare/f7f90c8...v0.1.0
